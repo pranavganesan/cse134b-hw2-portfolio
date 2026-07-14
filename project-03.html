@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project write-up: Project Three: Recipe Box.">
+  <title>Project Three: Recipe Box | Pranav Ganesan</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <noscript><p>This site is fully usable without JavaScript. Scripts here only add a console-log demo, an optional &lt;canvas&gt; illustration on the Experiments page, and an inert analytics placeholder.</p></noscript>
+  <header>
+    <p class="brand">
+      <picture>
+        <source media="(max-width: 480px)" srcset="assets/images/logo-square.png">
+        <img src="assets/images/logo-wide.png" alt="Pranav Ganesan portfolio logo" width="160" height="40">
+      </picture>
+      <span>Pranav Ganesan</span>'s portfolio
+    </p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>Project Three: Recipe Box</h1>
+      <p>Built this on my own over about 4 weeks, Fall 2025.</p>
+      <img src="assets/images/project-03.png" alt="Screenshot of the Recipe Box app showing a searchable grid of recipe cards" width="640" height="380">
+
+      <section>
+        <h2>Problem</h2>
+        <p>My family's recipes were split between a shared folder of phone photos, a handful of bookmarked sites, and a few handwritten cards.</p>
+      </section>
+      <section>
+        <h2>Approach</h2>
+        <p>I built a small app for entering recipes once, tagging them by cuisine and ingredient, and finding them again by searching any of those tags. I used <b>Python</b> and <b>Flask</b> for this one.</p>
+        <ul>
+          <li>Tag-based search across ingredients and cuisine</li>
+          <li>Printable single-recipe view</li>
+          <li>Import form for adding new recipes quickly</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Outcome</h2>
+        <p>The whole family now adds new recipes there instead of texting photos of index cards to each other.</p>
+      </section>
+
+      <p><a href="projects.html">&larr; Back to all projects</a></p>
+    </article>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="https://github.com/pranavganesan" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-g-71b095308/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="experiments.html">Experiments (HTML tag demos)</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Pranav Ganesan. Built for CSE 134B, Summer I 2026.</p>
+    <hello-world-log></hello-world-log>
+  </footer>
+</body>
+</html>

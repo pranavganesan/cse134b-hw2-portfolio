@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Pranav Ganesan.">
+  <title>Contact | Pranav Ganesan</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <noscript><p>This site is fully usable without JavaScript. Scripts here only add a console-log demo, an optional &lt;canvas&gt; illustration on the Experiments page, and an inert analytics placeholder.</p></noscript>
+  <header>
+    <p class="brand">
+      <picture>
+        <source media="(max-width: 480px)" srcset="assets/images/logo-square.png">
+        <img src="assets/images/logo-wide.png" alt="Pranav Ganesan portfolio logo" width="160" height="40">
+      </picture>
+      <span>Pranav Ganesan</span>'s portfolio
+    </p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Contact</h1>
+      <p>Email's the fastest way to reach me. There's also a form below if you'd rather
+      use that. <strong>Anything marked required actually needs to be filled in.</strong></p>
+      <p>Email: <a href="mailto:prganesan@ucsd.edu">prganesan@ucsd.edu</a></p>
+    </section>
+
+    <section>
+      <h2>Send a Message</h2>
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Message details</legend>
+
+          <p>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required>
+          </p>
+          <p>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p>
+            <label for="reason">Reason for contact</label><br>
+            <input type="text" id="reason" name="reason">
+          </p>
+          <p>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+          </p>
+          <p>
+            <button type="submit">Send Message</button>
+            <button type="reset">Clear Form</button>
+          </p>
+        </fieldset>
+      </form>
+
+      <dialog open>
+        <p>This is a static demo of the &lt;dialog&gt; element. In a later phase, this
+        would confirm your message was sent.</p>
+      </dialog>
+    </section>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="https://github.com/pranavganesan" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-g-71b095308/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="experiments.html">Experiments (HTML tag demos)</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Pranav Ganesan. Built for CSE 134B, Summer I 2026.</p>
+    <hello-world-log></hello-world-log>
+  </footer>
+</body>
+</html>

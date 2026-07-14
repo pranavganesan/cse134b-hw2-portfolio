@@ -1,0 +1,36 @@
+/*
+  HW2 Part 2 constraint: pages may NOT be styled beyond using a border to
+  establish base page structure. "border" / "border-width" do not count
+  against that limit, so this file intentionally uses only those two
+  properties for every ordinary element.
+
+  The one exception (per the assignment) is CSS scoped specifically to the
+  custom <skill-chip> element, which is exempt from the property limit.
+  That rule lives in an inline <style> tag on the pages that use it, kept
+  separate from this file so the "border-only" file stays honest on its own.
+*/
+
+header,
+nav,
+main,
+footer,
+section,
+article,
+form,
+fieldset,
+table,
+img,
+picture,
+iframe,
+video,
+audio,
+canvas,
+dialog {
+  border: 1px solid #444444;
+}
+
+/* Slightly heavier border to distinguish the page's outermost regions. */
+header,
+footer {
+  border-width: 2px;
+}

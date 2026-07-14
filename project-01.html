@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project write-up: Project One: Campus Event Finder.">
+  <title>Project One: Campus Event Finder | Pranav Ganesan</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <noscript><p>This site is fully usable without JavaScript. Scripts here only add a console-log demo, an optional &lt;canvas&gt; illustration on the Experiments page, and an inert analytics placeholder.</p></noscript>
+  <header>
+    <p class="brand">
+      <picture>
+        <source media="(max-width: 480px)" srcset="assets/images/logo-square.png">
+        <img src="assets/images/logo-wide.png" alt="Pranav Ganesan portfolio logo" width="160" height="40">
+      </picture>
+      <span>Pranav Ganesan</span>'s portfolio
+    </p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>Project One: Campus Event Finder</h1>
+      <p>Built this on my own over about 6 weeks, Spring 2026. In my project folder I just called it <i>Nightowl</i>.</p>
+      <img src="assets/images/project-01.png" alt="Screenshot of the Campus Event Finder app showing a filterable list of events" width="640" height="380">
+
+      <section>
+        <h2>Problem</h2>
+        <p>Students at my school missed events they would have liked to attend simply because listings were scattered across five different club websites and a PDF calendar that was rarely updated.</p>
+      </section>
+      <section>
+        <h2>Approach</h2>
+        <p>I built a single searchable events page that pulls listings into one place and lets students filter by interest tag, building, and date. I used <b>Node.js</b> and <b>SQLite</b> for this one.</p>
+        <ul>
+          <li>Filter events by tag, location, and date range</li>
+          <li>Mobile-friendly list and detail views</li>
+          <li>Simple submission form for club organizers</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Outcome</h2>
+        <p>Around 40 students used the tool during its first week on campus, and two club officers asked to keep using it as their primary listing page.</p>
+      </section>
+
+      <p><a href="projects.html">&larr; Back to all projects</a></p>
+    </article>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="https://github.com/pranavganesan" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-g-71b095308/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="experiments.html">Experiments (HTML tag demos)</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Pranav Ganesan. Built for CSE 134B, Summer I 2026.</p>
+    <hello-world-log></hello-world-log>
+  </footer>
+</body>
+</html>

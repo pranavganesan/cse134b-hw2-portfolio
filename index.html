@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Computer science student portfolio: projects, background, and contact information.">
+  <title>Pranav Ganesan | Portfolio</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    /* Exempt per assignment rules: CSS scoped to the custom <skill-chip>
+       element does not count against the border-only limit elsewhere. */
+    skill-chip {
+      display: inline-block;
+      background-color: #eef1f5;
+      color: #12314f;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 0.85em;
+      margin: 2px;
+    }
+  </style>
+  <script>
+    // Placeholder for a third-party analytics snippet.
+    // Intentionally inert for this phase of the assignment - no interactivity.
+    // e.g. window.dataLayer = window.dataLayer || [];
+  </script>
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <noscript><p>This site is fully usable without JavaScript. Scripts here only add a console-log demo, an optional &lt;canvas&gt; illustration on the Experiments page, and an inert analytics placeholder.</p></noscript>
+  <header>
+    <p class="brand">
+      <picture>
+        <source media="(max-width: 480px)" srcset="assets/images/logo-square.png">
+        <img src="assets/images/logo-wide.png" alt="Pranav Ganesan portfolio logo" width="160" height="40">
+      </picture>
+      <span>Pranav Ganesan</span>'s portfolio
+    </p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Pranav Ganesan</h1>
+      <p>I'm a computer science student who likes building things that <em>actually</em>
+      work end to end, not just look nice in a screenshot.<br>
+      Looking for internships for summer 2027.</p>
+      <p>
+        <skill-chip>HTML5</skill-chip>
+        <skill-chip>CSS3</skill-chip>
+        <skill-chip>JavaScript</skill-chip>
+        <skill-chip>Python</skill-chip>
+      </p>
+      <p><a href="projects.html">View my projects</a> &middot; <a href="about.html">About me</a></p>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <article>
+        <h3><a href="project-01.html">Project One: Campus Event Finder</a></h3>
+        <img src="assets/images/project-01.png" alt="Screenshot of the Campus Event Finder app showing a list of upcoming events" width="320" height="190">
+        <p>A <strong>full-stack</strong> app that actually pulls campus events into one place so people stop missing them.</p>
+      </article>
+      <article>
+        <h3><a href="project-02.html">Project Two: Habit Tracker</a></h3>
+        <img src="assets/images/project-02.png" alt="Screenshot of the Habit Tracker app showing a weekly grid of habits" width="320" height="190">
+        <p>A small habit tracker I made because every other one felt overbuilt for what I actually needed.</p>
+      </article>
+      <article>
+        <h3><a href="project-03.html">Project Three: Recipe Box</a></h3>
+        <img src="assets/images/project-03.png" alt="Screenshot of the Recipe Box app showing a searchable recipe grid" width="320" height="190">
+        <p>A recipe manager so my family would stop texting each other blurry photos of index cards.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>A Few Things About Me</h2>
+      <div>
+        <p>I've shipped <b>3</b> projects for classes so far, with more on the way.</p>
+        <p>I've been writing code for about <b>2</b> years now.</p>
+        <p>Python is still my favorite language by a good margin.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="https://github.com/pranavganesan" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/pranav-g-71b095308/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="experiments.html">Experiments (HTML tag demos)</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Pranav Ganesan. Built for CSE 134B, Summer I 2026.</p>
+    <hello-world-log></hello-world-log>
+  </footer>
+</body>
+</html>
